@@ -79,12 +79,7 @@ h5 {
 }
 
 .tasks .task > .label {
-  /* background: lightcyan;
-  color: blue;
-  padding: 0.25rem;
-  font-size: 0.75rem;
-  border: solid #cbcbff 0.15rem;
-  border-radius: 0.25rem; */
+  
   color:Black;
   font-weight: bold;
   display: block;
