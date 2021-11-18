@@ -1,68 +1,191 @@
 {
   
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+  
+    
+  "gh-pages": "^3.2.3"
+  
   },
+  
+  "homepage": "http://JessicaSew.github.io/to_do_page",
+  
   "name": "to_do_app",
+  
   "version": "1.0.0",
+  
   "main": "index.js",
+  
   "dependencies": {
-    "array-union": "^1.0.2",
-    "array-uniq": "^1.0.3",
-    "balanced-match": "^1.0.2",
-    "async": "^2.6.3",
-    "commondir": "^1.0.1",
-    "concat-map": "^0.0.1",
-    "brace-expansion": "^1.1.11",
-    "find-cache-dir": "^3.3.2",
-    "commander": "^2.20.3",
-    "escape-string-regexp": "^1.0.5",
-    "find-up": "^4.1.0",
-    "fs-extra": "^8.1.0",
-    "email-addresses": "^3.1.0",
-    "filename-reserved-regex": "^2.0.0",
-    "filenamify": "^4.3.0",
-    "fs.realpath": "^1.0.0",
-    "globby": "^6.1.0",
-    "inflight": "^1.0.6",
-    "jsonfile": "^4.0.0",
-    "inherits": "^2.0.4",
-    "graceful-fs": "^4.2.8",
-    "locate-path": "^5.0.0",
-    "make-dir": "^3.1.0",
-    "minimatch": "^3.0.4",
-    "once": "^1.4.0",
-    "glob": "^7.2.0",
-    "lodash": "^4.17.21",
-    "p-locate": "^4.1.0",
-    "object-assign": "^4.1.1",
-    "path-exists": "^4.0.0",
-    "p-limit": "^2.3.0",
-    "p-try": "^2.2.0",
-    "path-is-absolute": "^1.0.1",
-    "pify": "^2.3.0",
-    "pinkie-promise": "^2.0.1",
-    "pinkie": "^2.0.4",
-    "pkg-dir": "^4.2.0",
-    "semver": "^6.3.0",
-    "strip-outer": "^1.0.1",
-    "wrappy": "^1.0.2",
-    "trim-repeated": "^1.0.0",
-    "universalify": "^0.1.2"
+  
+    
+  "array-union": "^1.0.2",
+  
+    
+  "array-uniq": "^1.0.3",
+  
+    
+  "async": "^2.6.3",
+  
+    
+  "balanced-match": "^1.0.2",
+  
+    
+  "brace-expansion": "^1.1.11",
+  
+    
+  "commander": "^2.20.3",
+  
+    
+  "commondir": "^1.0.1",
+  
+    
+  "concat-map": "^0.0.1",
+  
+    
+  "email-addresses": "^3.1.0",
+  
+    
+  "escape-string-regexp": "^1.0.5",
+  
+    
+  "filename-reserved-regex": "^2.0.0",
+  
+    
+  "filenamify": "^4.3.0",
+  
+    
+  "find-cache-dir": "^3.3.2",
+  
+    
+  "find-up": "^4.1.0",
+  
+    
+  "fs-extra": "^8.1.0",
+  
+    
+  "fs.realpath": "^1.0.0",
+  
+    
+  "glob": "^7.2.0",
+  
+    
+  "globby": "^6.1.0",
+  
+    
+  "graceful-fs": "^4.2.8",
+  
+    
+  "inflight": "^1.0.6",
+  
+    
+  "inherits": "^2.0.4",
+  
+    
+  "jsonfile": "^4.0.0",
+  
+    
+  "locate-path": "^5.0.0",
+  
+    
+  "lodash": "^4.17.21",
+  
+    
+  "make-dir": "^3.1.0",
+  
+    
+  "minimatch": "^3.0.4",
+  
+    
+  "object-assign": "^4.1.1",
+  
+    
+  "once": "^1.4.0",
+  
+    
+  "p-limit": "^2.3.0",
+  
+    
+  "p-locate": "^4.1.0",
+  
+    
+  "p-try": "^2.2.0",
+  
+    
+  "path-exists": "^4.0.0",
+  
+    
+  "path-is-absolute": "^1.0.1",
+  
+    
+  "pify": "^2.3.0",
+  
+    
+  "pinkie": "^2.0.4",
+  
+    
+  "pinkie-promise": "^2.0.1",
+  
+    
+  "pkg-dir": "^4.2.0",
+  
+    
+  "react-scripts": "^4.0.3",
+  
+    
+  "semver": "^6.3.0",
+  
+    
+  "strip-outer": "^1.0.1",
+  
+    
+  "trim-repeated": "^1.0.0",
+  
+    
+  "universalify": "^0.1.2",
+  
+    
+  "wrappy": "^1.0.2"
+  
   },
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  
+    
+  "predeploy": "npm run build",
+  
+    
+  "deploy": "gh-pages -d build",
+  
+    
+  "build": "react-scripts build",
+  
+    
+  "test": "echo \"Error: no test specified\" && exit 1"
+  
   },
+  
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JessicaSew/to_do_app.git"
+  
+    
+  "type": "git",
+  
+    
+  "url": "git+https://github.com/JessicaSew/to_do_app.git"
+  
   },
+  
   "keywords": [],
+  
   "author": "",
+  
   "license": "ISC",
+  
   "bugs": {
-    "url": "https://github.com/JessicaSew/to_do_app/issues"
+  
+    
+  "url": "https://github.com/JessicaSew/to_do_app/issues"
+  
   },
-  "homepage": "https://github.com/JessicaSew/to_do_app#readme",
+  
   "description": ""
 }
